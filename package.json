@@ -1,0 +1,29 @@
+{
+  "name": "firebase-geojson",
+  "version": "0.1.0",
+  "description": "An RFC7946-compliant library to interchangeably convert between GeoJSON objects and Firestore documents.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conormag/firebase-geojson.git"
+  },
+  "keywords": [
+    "firebase",
+    "firestore",
+    "geojson",
+    "geopoint",
+    "polygon"
+  ],
+  "author": "Conor Maguire",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/conormag/firebase-geojson/issues"
+  },
+  "homepage": "https://github.com/conormag/firebase-geojson#readme",
+  "dependencies": {
+    "@google-cloud/firestore": "^3.8.6"
+  }
+}
